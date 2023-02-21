@@ -17,23 +17,33 @@ class SchedulesSeeder extends Seeder
         DB::table('schedules')->insert([
             [
                 'available' => '2023-03-05 13:12:00',
-                'class' => 'Zumba'
+                'class' => 'Zumba',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s')
             ],
             [
                 'available' => '2023-03-05 15:12:00',
-                'class' => 'Salsa'
+                'class' => 'Salsa',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s')
             ],
             [
                 'available' => '2023-03-05 11:12:00',
-                'class' => 'Yoga'
+                'class' => 'Yoga',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s')
             ],
             [
                 'available' => '2023-03-05 19:12:00',
-                'class' => 'Mambo'
+                'class' => 'Mambo',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s')
             ],
             [
                 'available' => '2023-03-05 14:12:00',
-                'class' => 'Sparring'
+                'class' => 'Sparring',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s')
             ]
         ]);
     }

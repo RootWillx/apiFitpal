@@ -12,7 +12,7 @@ class UsersController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index(): Response
+    public function index()
     {
         return Users::all();
     }
@@ -20,7 +20,7 @@ class UsersController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request): Response
+    public function store(Request $request)
     {
         //
     }
@@ -28,7 +28,7 @@ class UsersController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(string $id): Response
+    public function show(string $id)
     {
         //
     }
@@ -36,7 +36,7 @@ class UsersController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id): Response
+    public function update(Request $request, string $id)
     {
         //
     }
@@ -44,7 +44,7 @@ class UsersController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id): Response
+    public function destroy(string $id)
     {
         //
     }

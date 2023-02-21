@@ -21,7 +21,9 @@ class UserSeeder extends Seeder
                 'gender' => 'Masculino',
                 'identification' => 70218511,
                 'high' => 1.8,
-                'weight' => 72
+                'weight' => 72,
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s')
             ],
             [
                 'name' => 'María Perla',
@@ -30,7 +32,9 @@ class UserSeeder extends Seeder
                 'gender' => 'Femenino',
                 'identification' => 80218522,
                 'high' => 1.5,
-                'weight' => 50
+                'weight' => 50,
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s')
             ],
             [
                 'name' => 'Cielo Celeste',
@@ -39,7 +43,9 @@ class UserSeeder extends Seeder
                 'gender' => 'Femenino',
                 'identification' => 23888591,
                 'high' => 1.6,
-                'weight' => 60
+                'weight' => 60,
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s')
             ]
         ]);
     }

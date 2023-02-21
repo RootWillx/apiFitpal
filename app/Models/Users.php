@@ -20,4 +20,10 @@ class Users extends Model
         'weight'
 
     ];
+
+    protected $hidden = [
+        'created_at',
+        'updated_at'
+    ];
+
 }
