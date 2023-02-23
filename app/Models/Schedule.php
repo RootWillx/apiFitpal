@@ -20,4 +20,8 @@ class Schedule extends Model
         'updated_at'
 
     ];
+    public function users()
+    {
+        return $this->belongsToMany(User::class,'schedules_users');
+    }
 }

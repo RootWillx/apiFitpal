@@ -16,10 +16,10 @@ class UserSeeder extends Seeder
         DB::table('users')->insert([
             [
                 'name' => 'Alex Oscar',
+                'email' => 'Alex.oscar@hotmail.com',
                 'password' => 'asd123',
                 'age' => 28,
                 'gender' => 'Masculino',
-                'identification' => 70218511,
                 'high' => 1.8,
                 'weight' => 72,
                 'created_at' => date('Y-m-d H:i:s'),
@@ -27,10 +27,10 @@ class UserSeeder extends Seeder
             ],
             [
                 'name' => 'María Perla',
+                'email' => 'Maria.Perla@gmail.com',
                 'password' => 'asd123',
                 'age' => 34,
                 'gender' => 'Femenino',
-                'identification' => 80218522,
                 'high' => 1.5,
                 'weight' => 50,
                 'created_at' => date('Y-m-d H:i:s'),
@@ -38,10 +38,10 @@ class UserSeeder extends Seeder
             ],
             [
                 'name' => 'Cielo Celeste',
+                'email' => 'Cielo.Celeste@hotmail.com',
                 'password' => 'asd123',
                 'age' => 50,
                 'gender' => 'Femenino',
-                'identification' => 23888591,
                 'high' => 1.6,
                 'weight' => 60,
                 'created_at' => date('Y-m-d H:i:s'),
