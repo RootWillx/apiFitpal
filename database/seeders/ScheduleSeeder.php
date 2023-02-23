@@ -6,41 +6,46 @@ use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
-class SchedulesSeeder extends Seeder
+class ScheduleSeeder extends Seeder
 {
     /**
      * Run the database seeds.
      */
-    public function run(): void
+    public function run()
     {
         
         DB::table('schedules')->insert([
             [
-                'available' => '2023-03-05 13:12:00',
+                'availability' => 'Si',
+                'available_at' => date('Y-m-d H:i:s'),
                 'class' => 'Zumba',
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
             ],
             [
-                'available' => '2023-03-05 15:12:00',
+                'availability' => 'No',
+                'available_at' => date('Y-m-d H:i:s'),
                 'class' => 'Salsa',
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
             ],
             [
-                'available' => '2023-03-05 11:12:00',
+                'availability' => 'Si',
+                'available_at' => date('Y-m-d H:i:s'),
                 'class' => 'Yoga',
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
             ],
             [
-                'available' => '2023-03-05 19:12:00',
+                'availability' => 'Si',
+                'available_at' => date('Y-m-d H:i:s'),
                 'class' => 'Mambo',
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
             ],
             [
-                'available' => '2023-03-05 14:12:00',
+                'availability' => 'No',
+                'available_at' => date('Y-m-d H:i:s'),
                 'class' => 'Sparring',
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')

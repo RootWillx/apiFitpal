@@ -5,23 +5,19 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class User extends Model
+class Schedule extends Model
 {
     use HasFactory;
 
     protected $fillable = [
-        'name',
-        'password',
-        'age',
-        'gender',
-        'identification',
-        'high',
-        'weight'
+        'availability',
+        'available_at',
+        'class'
     ];
 
     protected $hidden = [
         'created_at',
         'updated_at'
-    ];
 
+    ];
 }

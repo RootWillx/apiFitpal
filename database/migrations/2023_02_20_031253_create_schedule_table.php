@@ -9,11 +9,12 @@ return new class extends Migration
     /**
      * Run the migrations.
      */
-    public function up(): void
+    public function up()
     {
         Schema::create('schedules', function (Blueprint $table) {
             $table->id('id')->primarykey();
-            $table->date('available');
+            $table->string('availability',45);
+            $table->timestamp('available_at');
             $table->string('class',45);
             $table->timestamps();
         });
